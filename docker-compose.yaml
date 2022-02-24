@@ -1,0 +1,9 @@
+version: "3"
+
+services:
+  discord-stream-recorder:
+    build: .
+    container_name: "discord-stream-recorder"
+#    volumes:
+#      - "/PATH/ON/HOST:/home/app/out"
+#      - "C:\\PATH\\ON\\HOST\\config.json:/home/app/config.json"

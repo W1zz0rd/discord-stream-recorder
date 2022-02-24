@@ -1,0 +1,7 @@
+node_modules
+.idea
+!/secrets
+/secrets/*
+!secrets/discord-tokens.example.json
+/temp/*
+/out/*
