@@ -5,7 +5,7 @@ A bot that can record discord streams and screen shares. Sadly we can only recor
 - A discord bot account
    - https://discord.com/developers #account is made here
    - ![createbot.PNG](createbot.PNG)
-   - Bot token is found on the general information page, it is the bot public key
+   - Bot token is found on the Bot page, you need to click reset token to get it
 - A spare discord user account
 - [Docker](https://docs.docker.com/get-docker/)
 
