@@ -17,6 +17,7 @@ A bot that can record discord streams and screen shares. Sadly we can only recor
    ``` IE Windows C:\\Users\<youraccount>\\Documents\\discord-stream-recorder```
 1. Invite your bot to your server by generating, then opening an OAuth url with these permissions:
    ![bot permissions](bot_permissions.png)
+   ``` This is found on the Oauth2 page, invite link will be at the bottom```
 1. Install [Docker](https://docs.docker.com/get-docker/).
 1. Run `docker-compose up -d` inside this repository.
 1. Type `!help` in your discord server for a list of available commands.
