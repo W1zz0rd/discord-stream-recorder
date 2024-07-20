@@ -3,12 +3,16 @@ A bot that can record discord streams and screen shares. Sadly we can only recor
 
 ## What you need
 - A discord bot account
+   - https://discord.com/developers #account is made here
+   - ![createbot.png](createbot.png)
+   - Bot token is found on the general information page, it is the bot public key
 - A spare discord user account
 - [Docker](https://docs.docker.com/get-docker/)
 
 ## Deployment
 1. Add your tokens to `secrets/discord-tokens.json` (See below for a guide on how to get them)
 1. Uncomment and edit volume paths in `docker-compose.yaml`. Recordings are saved in the `out` directory.
+   ```This will be where you want the files to be saved. An easy solution is setting it to the filepath where you have stored this code.```
 1. Invite your bot to your server by generating, then opening an OAuth url with these permissions:
    ![bot permissions](bot_permissions.png)
 1. Install [Docker](https://docs.docker.com/get-docker/).
